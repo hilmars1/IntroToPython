@@ -117,7 +117,7 @@ for sentence in exblob.sentences:
 # Section 12.2.7 snippets
 blob
 
-blob.detect_language()
+blob.detect_language()   # doesn't work, issues with the library TextBlob
 
 spanish = blob.translate(to='es')
 
