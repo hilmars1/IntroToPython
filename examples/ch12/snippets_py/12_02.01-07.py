@@ -65,8 +65,8 @@ blob
 
 blob.sentiment
 
-# Getting the polarity and subjectivity from the Sentiment Object
-%precision 3
+# Getting the polarity and subjectivity from the Sentiment Objec
+# %precision 3
 
 blob.sentiment.polarity
 
@@ -117,7 +117,7 @@ for sentence in exblob.sentences:
 # Section 12.2.7 snippets
 blob
 
-blob.detect_language()   # doesn't work, issues with the library TextBlob
+blob.detect_language()   # may not work due to issues with the library TextBlob
 
 spanish = blob.translate(to='es')
 
